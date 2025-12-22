@@ -1,0 +1,4 @@
+.swiper-slide {
+  width: auto !important; /* لا تقم بتحديد col- */
+  flex-shrink: 0;
+}

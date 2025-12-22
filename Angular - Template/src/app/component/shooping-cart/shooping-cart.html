@@ -1,0 +1,83 @@
+<app-header></app-header>
+
+<section class="cart-section section-b-space cart-fix">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <table class="table cart-table table-responsive-xs">
+          <tbody *ngFor="let i of items">
+            <tr>
+              <td>
+                <a href="#"><img [src]="i.image" alt="" /></a>
+              </td>
+              <td>
+                <a href="#">{{ i.name }}</a>
+                <div class="mobile-cart-content row">
+                  <div class="col-xs-3">
+                    <div class="qty-box">
+                      <div class="input-group">
+                        <input
+                          type="text"
+                          name="quantity"
+                          class="form-control input-number"
+                          value="1"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-3">
+                    <h2 class="td-color">{{ i.price | currency }}</h2>
+                  </div>
+                  <div class="col-xs-3">
+                    <h2 class="td-color">
+                      <a href="#" class="icon"><i class="ti-close"></i></a>
+                    </h2>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <h2>{{ i.total | currency }}</h2>
+              </td>
+              <td>
+                <div class="qty-box">
+                  <div class="input-group">
+                    <input
+                      type="number"
+                      name="quantity"
+                      class="form-control input-number"
+                      value="1"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <a style="cursor: pointer" (click)="RemoveItem(i.id)" class="icon"
+                  ><i class="ti-close"></i
+                ></a>
+              </td>
+              <td>
+                <h2 class="td-color">{{ i.total | currency }}</h2>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="table cart-table table-responsive-md">
+          <tfoot>
+            <tr>
+              <td>total price :</td>
+              <td>
+                <h2>{{ GetTotalPrice() | currency }}</h2>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+    <div class="row cart-buttons">
+      <div class="col-6"><a href="#" class="btn btn-solid">continue shopping</a></div>
+      <div class="col-6"><a routerLink="/BillingInfo" class="btn btn-solid">check out</a></div>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>

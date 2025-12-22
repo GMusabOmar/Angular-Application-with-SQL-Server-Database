@@ -1,0 +1,49 @@
+<div class="img-wrapper">
+  <div class="ribbon"><span>new</span></div>
+  <div class="front">
+    <a routerLink="/ItemsDetails/{{ items.id }}">
+      <!-- <img
+        alt=""
+        src="../../../assets/images/tools/pro/1.jpg"
+        class="img-fluid blur-up lazyload bg-img"
+      /> -->
+      <img alt="" [src]="items.image" class="img-fluid blur-up lazyload bg-img" />
+    </a>
+  </div>
+  <div class="cart-info cart-wrap">
+    <a href="javascript:void(0)" title="Add to Wishlist"
+      ><i class="fa fa-heart" aria-hidden="true"></i
+    ></a>
+    <button onclick="openCart()" title="Add to cart">
+      <i class="ti-shopping-cart"></i> Add to cart
+    </button>
+    <a href="compare.html" title="Compare"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+    <a
+      class="mobile-quick-view"
+      href="#"
+      data-toggle="modal"
+      data-target="#quick-view"
+      title="Quick View"
+      ><i class="ti-search" aria-hidden="true"></i
+    ></a>
+  </div>
+  <div class="quick-view-part">
+    <a href="#" data-toggle="modal" data-target="#quick-view" title="Quick View"
+      ><i class="ti-search" aria-hidden="true"></i
+    ></a>
+  </div>
+</div>
+<div class="product-info">
+  <div class="rating">
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+  </div>
+  <a routerLink="/ItemsDetails/{{ items.id }}">
+    <h6>{{ items.name | titlecase }}</h6>
+  </a>
+  <h4>{{ items.price | currency : 'IRQ' }}</h4>
+  ID = {{ items.id }}
+</div>

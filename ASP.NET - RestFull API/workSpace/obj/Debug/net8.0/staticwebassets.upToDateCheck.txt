@@ -1,0 +1,14 @@
+wwwroot\Images\Products\Hp1.jpg
+wwwroot\Images\Products\Hp2.jpg
+wwwroot\Images\Products\Hp3.webp
+wwwroot\Images\Products\Hp4.webp
+wwwroot\Images\Products\Hp5.webp
+wwwroot\Images\Products\Hp6.webp
+wwwroot\Images\Products\Hp7.jpg
+wwwroot\Images\Products\Hp8.webp
+wwwroot\Images\Products\Hp9.webp
+wwwroot\Images\Products\Laptops.png
+wwwroot\Images\Sliders\Banal1.jpg
+wwwroot\Images\Sliders\Banal2.jpg
+wwwroot\Images\Sliders\Banal3.jpg
+wwwroot\Images\Sliders\Banal4.jpg
