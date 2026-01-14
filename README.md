@@ -1,105 +1,106 @@
-🧩 Project Overview
+# 🧩 Project Overview
 
 This project is a full-stack web application developed with Angular and ASP.NET Core Web API.
 The application focuses on data retrieval operations using RESTful principles and is structured using the 3-Tier Architecture.
 
-🛠 Technologies Used
-Frontend
+## 🛠 Technologies Used
+### Frontend
 
-.HTML, CSS, JavaScript, TypeScript
+- HTML, CSS, JavaScript, TypeScript
 
-.Angular
+- Angular
 
-.Data Binding
+- Data Binding
 
-.Components & Services
+- Components & Services
 
-.Dependency Injection (DI)
+- Dependency Injection (DI)
 
-.Observables
+- Observables
 
-.HttpClient
+- HttpClient
 
-.Angular CLI
+- Angular CLI
 
-.Visual Studio Code
+- Visual Studio Code
 
-Backend
+### Backend
 
-.C# (OOP)
+- C# (OOP)
 
-.ASP.NET Core
+- ASP.NET Core
 
-.Controllers
+- Controllers
 
-.ActionResult
+- ActionResult
 
-.Routing
+- Routing
 
-.IEnumerable
+- IEnumerable
 
-.RESTful API
+- RESTful API
 
-.Swagger UI
+- Swagger UI
 
-.Visual Studio
+- Visual Studio
 
-.wwwroot folder
+- wwwroot folder
 
-.Database
+- Database
 
-.SQL Server
+- SQL Server
 
-.T-SQL Stored Procedures
+- T-SQL Stored Procedures
 
-.ADO.NET
+- ADO.NET
 
-.SQL Server Management Studio (SSMS)
+- SQL Server Management Studio (SSMS)
 
-🏗 Architecture
+## 🏗 Architecture
 
 The system is designed using the 3-Tier Architecture:
 
-1. Presentation Tier
+### 1. Presentation Tier
 
-.Angular Frontend (UI, Data Binding, HttpClient)
+- Angular Frontend (UI, Data Binding, HttpClient)
 
-2. Application Tier
+### 2. Application Tier
 
-.ASP.NET Core Web API
+- ASP.NET Core Web API
 
-.Controllers handling HTTP GET requests
+- Controllers handling HTTP GET requests
 
-3. Data Tier
+### 3. Data Tier
 
-.SQL Server database
+- SQL Server database
 
-.Stored Procedures accessed via ADO.NET
+- Stored Procedures accessed via ADO.NET
 
-🔄 API Features
+## 🔄 API Features
 
-.RESTful API implementation
+- RESTful API implementation
 
-.Supported HTTP Method:
+- Supported HTTP Method:
 
-.GET
+- GET
 
-.Data exposed via domain models and module properties
+- Data exposed via domain models and module properties
 
-.API documentation and testing using Swagger UI
+- API documentation and testing using Swagger UI
 
-🚀 Getting Started
-Prerequisites
+## 🚀 Getting Started
+### Prerequisites
 
-. Node.js & Angular CLI
+- Node.js & Angular CLI
 
-. .NET SDK
+- .NET SDK
 
-. SQL Server
+- SQL Server
 
-Run the Application
+### Run the Application :
 
-Backend : dotnet run
-Frontend:
-. npm install
-. ng serve
+### Backend
+- dotnet run
+### Frontend
+- npm install
+- ng serve
